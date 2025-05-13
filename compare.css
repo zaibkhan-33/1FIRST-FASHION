@@ -1,0 +1,80 @@
+html
+{
+  overflow-x: hidden;
+}
+
+section {
+  padding: 40px 0;
+}
+
+/*Header*/
+
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+}
+.logo {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  width:180px;
+  height:100px;
+}
+
+/*navbar*/
+
+.navbar {
+  background-color:BLACK;
+  height: 55px;
+  justify-content: center;
+}
+.navbar-collapse {
+  background-color: BLACK;
+  padding: 0 24px;
+}
+
+.nav-link {
+  margin: 0 20px;
+}
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+  color:#fff !important;
+}
+
+.nav-link.show {
+  color: #DEAD94 !important;
+}
+.navbar-toggler {
+  color: #DEAD94;
+  margin-bottom: 4px;
+  border: 1px solid #DEAD94;
+}
+.toggler-icon {
+  color: #DEAD94 !important;
+  padding: 4px;
+  font-size: 24px;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  /* box-shadow: 0 0 0 0.12rem; */
+}
+.navbar-collapse a {
+  color: #fff;
+}
+.navbar-nav .nav-item .dropdown-menu {
+  background-color: #DEAD94 !important;
+  color: white !important;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+}

@@ -1,0 +1,182 @@
+html {
+  overflow-x: hidden;
+}
+
+section {
+  padding: 40px 0;
+}
+/*Header*/
+
+.header {
+  height: 180px;
+  width: 100%;
+  background-color: white;
+}
+
+.logo {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  width:200px;
+  height:150px;
+}
+
+/*navbar*/
+
+.navbar {
+  background-color: BLACK;
+  height: 55px;
+  justify-content: center;
+}
+.navbar-collapse {
+  background-color:BLACK;
+  padding: 0 24px;
+}
+
+.nav-link {
+  margin: 0 20px;
+}
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+  color: #fff !important;
+}
+
+.nav-link.show {
+  color: #fff !important;
+}
+.navbar-toggler {
+  color: #fff;
+  margin-bottom: 4px;
+  border: 1px solid #fff;
+}
+.toggler-icon {
+  color: #fff !important;
+  padding: 4px;
+  font-size: 24px;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  /* box-shadow: 0 0 0 0.12rem; */
+}
+.navbar-collapse a {
+  color: #fff;
+}
+.navbar-nav .nav-item .dropdown-menu {
+  background-color: #DEAD94 !important;
+  color: white !important;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline  #DEAD94;
+  padding-top: 40px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  padding-top: 5px;
+  background-color: #ffffffaf;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #DEAD94;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #DEAD94;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+
+.fa-address-book {
+  font-size: 100px;
+}
+
+.fa-address-book {
+  padding: 60px;
+  padding-left: 230px;
+}
+
+.fa-location-crosshairs {
+  font-size: 100px;
+  padding: 60px;
+  padding-left: 230px;
+}
+
+.formcontainer {
+  background-color: #DEAD94;
+  width: 100%;
+}
+
+.fa-instagram,
+.fa-facebook,
+.fa-youtube {
+  text-align: center;
+}
+
+/*Customer-Service*/
+
+.customer-service {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  padding: 30px;
+  gap: 150px;
+}
+
+.service1 {
+  display: flex;
+  margin-top: 30px;
+}

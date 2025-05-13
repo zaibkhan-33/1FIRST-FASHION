@@ -1,0 +1,522 @@
+html
+{
+  overflow-x: hidden;
+}
+
+body{}
+
+section {
+  padding: 40px 0;
+}
+
+/*Header*/
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  background-color:#DEAD94;
+  height: 20px;
+  color:red;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 10px;
+}
+
+.marquee span {
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(150%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+}
+.logo {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.logo img{
+  width:200px;
+  height: 200;
+  border-radius: 10% 10%;
+ 
+  transition: width 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+
+
+
+}
+.logo  img :active{
+  width:300;
+  border-radius:70% 70%;
+}
+
+/*navbar*/
+
+.navbar {
+   background-color:black;
+ 
+  height: 55px;
+  justify-content: center;
+}
+.navbar-collapse {
+  background-color:black;
+  padding: 0 24px;
+
+}
+
+.nav-link {
+  margin: 0 20px;
+  color:white;
+}
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+  color: #fff !important;
+}
+
+.nav-link.show {
+  color: #fff !important;
+}
+.navbar-toggler {
+  color: #fff;
+  margin-bottom: 4px;
+  border: 1px solid #fff;
+}
+.toggler-icon {
+  color: #fff !important;
+  padding: 4px;
+  font-size: 24px;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  /* box-shadow: 0 0 0 0.12rem; */
+}
+.navbar-collapse a {
+  color: white;
+}
+.navbar-nav .nav-item .dropdown-menu {
+  background-color:  #DEAD94 !important;
+  color: white !important;
+}
+
+
+/*banner*/
+.mainbanner {
+  height:600px;
+  background-image: url("./Assets/pictures/pix1.jpg"); 
+  background-size:cover;
+  padding-top: 2px;
+  display: flex;
+    justify-content: space-between;
+}
+Slides Container
+  
+  
+  /* Individual Slide */
+  /* .slide1 {
+    min-width: 100%; /* Each slide takes up full width */
+    /* box-sizing: border-box;
+    position:relative;
+    background-image: url("./Assets/pictures/mr1.jpg"); */
+  } 
+   */
+  /* Image Styling */
+  /* .slide1 img {
+    width: 50%; /* Image fits the slide container */
+    /* display: block;
+    height:700px;
+    position:sticky; */
+    /* background-image: url(./Assets/pictures/MAROON\ COTTON\ KURTA\ TROUSER\ -\ AL-KT-2981\ Pic\ 1.jpg);
+    background-size: 100% 100%;
+    animation:slide-animation 15s linear infinite;
+    transition: width 1s ease-in-out,border 1s; */
+  } */
+  
+  /* Keyframes for Automatic Sliding */
+  /* @keyframes slide-animation {
+    0% { background-image: url(./Assets/pictures/mr3.jpg);
+    }
+    25%{background-image: url(./Assets/pictures/Rangsaaz\ -\ Embroidered\ Waistcoat\ in\ Mustard\ Paired\ with\ Kurta\ and\ Pants\ Pic\ 1.jpg); }
+    35% {  background-image: url(./Assets/pictures/2\ Piece\ -\ Naqsh\ Suit\ -\ 42407821-2\ Pic\ 2.jpg); }
+    45% {  background-image: url(./Assets/pictures/1.jpg);}
+    55% {  background-image: url(./Assets/pictures/MAROON\ COTTON\ KURTA\ TROUSER\ -\ AL-KT-2981\ Pic\ 1.jpg);}
+   
+  } */
+  /* .slide1 img:hover{
+    width:100%;
+    border: 50px solid black;
+  } */
+  
+  
+  
+ 
+
+.banner {
+ padding-top: 300px;
+  margin-left: 700px;
+  width: 430px;
+  
+}
+.banner:hover{
+
+}
+
+.banner > h1 {
+  margin-top: -10px;
+  
+}
+
+.banner h1 {
+  font-size: 40px;
+  color: #1c1c1c;
+}
+
+.banner p {
+  margin-top:10px;
+  color: rgb(118, 118, 118);
+}
+
+.mainbanner button {
+  height: 50px;
+  width: 250px;
+  background-color: #DEAD94 ;
+  border: 0cap;
+  border-radius: 5px;
+}
+
+.mainbanner button:hover {
+  background-color:#B99481;
+}
+
+/*Customer-Service*/
+
+.service1 {
+  display: flex;
+  margin-top: 0px;
+}
+
+/*Collections*/
+
+.collection-section .row > * {
+  padding: 0 !important;
+}
+/*Wedding Collection*/
+
+.wedding {
+  background-image: url("Assets/pictures/mariab1.webp");
+  background-size: cover;
+  height: 600px;
+  margin-top: 25px;
+  border-radius:50%;
+}
+
+.wedding h1 {
+  padding-top: 40px;
+  padding-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.wedding p {
+  width: 200px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.wedding ul,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding-top: 8px;
+  margin-left: -5px;
+}
+
+/*Winter Collection*/
+.winter {
+  background-image: url("Assets/pictures/wes3.webp");
+  background-size: cover;
+  height:500px;
+  border-radius: 50%;
+}
+
+.winter h1 {
+  padding-top: 20px;
+  padding-left: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.winter p {
+  width: 190px;
+  padding-left: 15px;
+}
+
+/*Summer Collection*/
+.summer {
+  background-image: url("Assets/pictures/marl1.webp");
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.summer h1 {
+  padding-top: 25px;
+  padding-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+.summer p {
+  width: 250px;
+  padding-left: 20px;
+  margin-top: 10px;
+  color: white;
+}
+
+/*Our Top Seller Products*/
+
+/* card */
+
+.card-img1
+{
+  width: 100%;
+  height: 400px;
+  border-radius: 7px 7px 0 0;
+  background-image: url("Assets/pictures/Traditionally\ Embroidered\ Beige\ Sherwani.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-img1:hover
+{
+  background-image: url("Assets/pictures/Traditionally\ Embroidered\ Beige\ Sherwani\ 2.jpg");
+}
+
+.card-img2
+{
+  width: 100%;
+  height: 400px;
+  border-radius: 7px 7px 0 0;
+  background-image: url("Assets/pictures/zari1.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-img2:hover
+{
+  background-image: url("Assets/pictures/zari4.webp");
+}
+
+.card-img3
+{
+  width: 100%;
+  height: 400px;
+  border-radius: 7px 7px 0 0;
+  background-image: url("Assets/pictures/Card 3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-img3:hover
+{
+  background-image: url("Assets/pictures/Card\ 3\ pic\ 2.jpg");
+}
+
+.card-img4
+{
+  width: 100%;
+  height: 400px;
+  border-radius: 7px 7px 0 0;
+  background-image: url("Assets/pictures/BLACK\ &\ GOLD\ BLENDED\ SHERWANI\ -\ AL-SW-137\ Pic\ 1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-img4:hover
+{
+  background-image: url("Assets/pictures/BLACK\ &\ GOLD\ BLENDED\ SHERWANI\ -\ AL-SW-137\ Pic\ 2.jpg");
+}
+
+
+
+.card-body {
+  padding: 1rem;
+  background: #fff;
+  border-radius: 0 0 7px 7px;
+}
+
+.card-title {
+  width: 260px;
+  margin-top: -10px;
+  margin-left: -13px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.price-crossed {
+  text-decoration: line-through;
+}
+
+.card-price {
+  margin-left: -13px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card-description {
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+  margin-bottom: 0rem;
+}
+
+.card-button {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 9px;
+}
+.card-button a {
+  text-decoration: none;
+}
+
+.card-button-inner {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.shopnow-button {
+  background: #DEAD94;
+  color: black;
+}
+
+.shopnow-button:hover {
+  background-color: #DEAD94a;
+  color: white;
+}
+
+.details-button {
+  border: 1px solid #DEAD94;
+  color: #3466aa;
+}
+
+.details-button:hover {
+  background-color: #DEAD94;
+  color: white;
+}
+
+/*Sale Banner*/
+.mainsalebanner {
+  height: 480px;
+  background-image: url("Assets/pictures/pinkmariab.webp");
+  background-size: cover;
+ 
+  
+}
+
+.salebanner {
+  margin-top: 100px;
+}
+
+.salebanner :nth-child(1) {
+  font-size: 20px;
+  color: #1c1c1c;
+}
+
+.salebanner :nth-child(3) {
+  color: rgb(118, 118, 118);
+}
+
+.mainsalebanner button {
+  height: 50px;
+  width: 250px;
+  background-color: #DEAD94;
+  border: 0cap;
+  border-radius: 5px;
+}
+
+.mainsalebanner button:hover {
+  background-color: #DEAD94;
+}
+
+/*Sale Banner Ends*/
+
+.malesection {
+  height: max-content;
+  width: 100%;
+  background-image: url("Assets/pictures/mens\ collection\ banner.png");
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 10px 10px #82b7dc;
+}
+
+.malesection p {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-weight: 450;
+  width: 300px;
+}
+
+.malesection h1 {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.femalesection {
+  height: max-content;
+  width: 100%;
+  background-image: url("Assets/pictures/womens\ collection\ banner\ 2.png");
+  background-size: cover;
+  border-radius: 5px;
+  box-shadow: 10px 10px #ff9ce3;
+}
+
+.femalesection p {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-weight: 450;
+  width: 250px;
+}
+
+.femalesection h1 {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.insta-pics img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style:normal;
+}
